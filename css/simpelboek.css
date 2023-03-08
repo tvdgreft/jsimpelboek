@@ -1,0 +1,235 @@
+input[type=text] {
+    width: 150px;
+	height: 28px;
+}
+input[type=number] {
+	width: 150px;
+	height: 28px;
+}
+.btnbke {
+  color: #900;
+  background: #FFFFFF;
+  font-weight: bold;
+  border: 1px solid #900;
+  border-radius: 25px;
+  max-width: 200px;
+}
+ 
+.btnbke:hover {
+  color: #FFF;
+  background: #D0C801;
+}
+
+.btnbke:disabled {
+  color: #FFF;
+  background: #A5A5A5;
+}
+
+.seleventbke
+{
+	color: #FFF;
+	width: 50%;
+}
+table.prana {
+    border:solid 4px #006CFF;
+    margin:0px;
+    padding:0px;
+    border-spacing:0px;
+    border-collapse:collapse;
+    line-height:22px;
+    font-size:18px;
+    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
+    font-weight:400;
+    text-decoration:none;
+    color:#010107e5; 
+    white-space:pre-wrap;
+}
+table.prana th {
+  padding: 10px;
+  background-color:#98dcff;
+  border:solid 2px #006CFF;
+}
+table.prana tr {
+    margin:0;
+    background: #D8B5B6;
+    padding:2px;
+}
+
+table.prana td tdright{
+  padding: 5px;
+  border:solid 1px #006CFF;
+}
+.tdright {
+    text-align: right;
+}
+
+/* booktable - tabel voor boekhoudprogramma , vervangt compacttabe */
+
+.boektable  .boekh .boektd .boektr
+{
+	height: 100px;
+	cellpadding: 3px;
+	cellspacing: 0;
+	border: 2px;
+}
+.boektable
+{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: transparent;
+	font-size: 0.7em;
+	border: 0;
+}
+.boektr {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	height: 5px;
+    vertical-align: baseline;
+    background: transparent;
+}
+.boekth, .boekthright
+{
+	background-color: #CD5C5C;
+}
+.boekthright {
+    text-align: right;
+}
+.boektd, .boektdright
+{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	height: 5px;
+    vertical-align: baseline;
+    background: #D8B5B6;
+    max-width: 500px; 
+word-wrap: break-word;
+}
+.boektdright {
+    text-align: right;
+}
+
+.boektdeven, .boektdevenright {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	height: 5px;
+    vertical-align: baseline;
+    background: #D8B5B6;
+}
+.boektdevenright {
+    text-align: right;
+}
+.boektdodd, .boektdoddright {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	height: 5px;
+    vertical-align: baseline;
+    background: #CD5C5C;
+}
+.boektdoddright {
+    text-align: right;
+}
+/* einde compacttable */
+
+/* compacttabel */
+
+.compacttable  .compactth .compacttd .compacttr
+{
+    border:solid 4px #006CFF;
+    margin:0px;
+    padding:0px;
+    border-spacing:0px;
+    border-collapse:collapse;
+    line-height:22px;
+    font-size:18px;
+    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
+    font-weight:400;
+    text-decoration:none;
+    color:#010107e5; 
+    white-space:pre-wrap;
+}
+
+.compacttr 
+{
+	margin:0;
+    background: #D8B5B6;
+    padding:2px;
+}
+.compactth, .compactthright, .compactthleft
+{
+    padding: 10px;
+    background-color:#98dcff;
+    border:solid 2px #006CFF;
+}
+.compactthright {
+    text-align: right;
+}
+.compacttd, .compacttdright, .compacttdleft
+{
+	padding: 5px;
+    border:solid 1px #006CFF;
+}
+.compacttdright {
+    text-align: right;
+}
+
+.compacttdeven, .compacttdevenright {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	height: 5px;
+    vertical-align: baseline;
+    background: #D8B5B6;
+}
+.compacttdevenright {
+    text-align: right;
+}
+.compacttdodd, .compacttdoddright {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+	height: 5px;
+    vertical-align: baseline;
+    background: #CD5C5C;
+}
+.compacttdoddright {
+    text-align: right;
+}
+/* einde compacttable */
+/*
+.boektable {
+    width: 100%;
+	max-width: 100%;
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+	border-spacing: 0;
+	background-color: transparent;
+	font-size: 1em;
+	border: solid 1px #ddd;
+}
+.boekth
+{
+	background-color: #CD5C5C;
+	text-align: left;
+}
+.boektr {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+*/

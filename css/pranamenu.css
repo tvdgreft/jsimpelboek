@@ -1,0 +1,18 @@
+.mynav { background-color:#98dcff;}
+.liinline { float: left;  display: inline; }
+.button_menu{
+  background-color: #98dcff;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 175px;
+}
+.button_menu:disabled
+{
+        background-color: darkgrey;
+}

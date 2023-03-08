@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="plugin" group="system">
+	<name>plg_system_simpelboek</name>
+	<author>Theo van der Greft</author>
+	<creationDate>04-09-2022</creationDate>
+	<copyright>Copyright (C) 2022. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>tvdgreft@pranamas.nl</authorEmail>
+	<authorUrl>www.pranamas.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>functionality for simpelboek</description>
+
+	<files>
+		<filename plugin="simpelboek">simpelboek.php</filename>
+		<filename>index.html</filename>
+		<filename>bootstrap.php</filename>
+		<filename>README.md</filename>
+		<filename>simpelboek.xml</filename>
+		<folder>classes</folder>
+		<folder>css</folder>
+		<folder>doc</folder>
+		<folder>functions</folder>
+		<folder>vendor</folder>
+		<folder>javascript</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			<field
+				name="organisation"
+				type="text"
+				label="organisatie"
+				description="naam van de organisatie"
+			/>
+			<field
+				name="intro"
+				type="textarea"
+				filter="raw"
+				label="introductie"
+				description="Beschrijving van de organisatie"
+			/>
+			<field
+				name="logo"
+				type="media"
+				default="images/joomla_black.png"
+				label="logo simpelboek"
+				description="logo simpelboek"
+			/>
+			<field
+				name="numrows"
+				type="text"
+				default = "10,20,50,100"
+				label="records per pagina"
+				description="Aantal records dat getoond wordt in een tabel"
+			/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
