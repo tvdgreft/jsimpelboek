@@ -1,4 +1,5 @@
 #SIMPELBOEK
+## Dit is de plugin voor joomla
 ## wat het wel en niet kan
 Simpelboek is een eenvoudig boekhoudprogramma voor verenigingen en stichtingen.
 Simpelboek bevat de volgende functionaliteit:
@@ -14,19 +15,17 @@ Wat Simpelboek niet kan:
 * beheer facturen
 
 ## hoe installeren
-Simpelboek kan op wordpress worden geinstalleerd als een plugin. 
+Simpelboek kan op joomla worden geinstalleerd als een plugin. 
 Deze plugin installeren gaat als volgt:
 Ga naar https://github.com/tvdgreft/simpelboek
 klik op de knop Code en vervolgens op Download ZIP.
 Bestand opslaan op pc
-In wordpress website inloggen als administrator.
-Ga naar: plugins - nieuwe plugin
+In joomla website inloggen als administrator.
+Ga naar: nieuwe extensie uploaden
 plugin uploaden. Bestand kiezen die net is opgeslagen vanuit github.
 Tenslotte de plugin activeren.
-Vervolgens een pagina aanmaken met de volgende tekst: [simpelboek].  
-Deze pagina aan een menu hangen en start de pagina.  
-De plugin is getest met GeneralPress als thema. 
-Bij instellingen - permalink moet bij Algemene instellingen Berichtnaam zijn aangeklikt.
+Vervolgens een pagina aanmaken met de volgende tekst: {simpelboek} 
+Deze pagina aan een menu hangen en start de pagina.
 
 Je kunt meerdere boekhoudingen aanmaken. Wil je dat iemand maar met 1 boekhouding kan werken, maak dan de volgende pagina aan:  
 [simpelboek single=code]  
